@@ -1,0 +1,15 @@
+Source: droidatoll-sysfs-torch
+Section: mist
+Priority: optional
+Maintainer: Marcel Alexandru Nitan <nitanmarcel@unknown>
+Build-Depends: debhelper (>= 10), qtbase5-dev, qtbase5-dev-tools, qt5-qmake
+Standards-Version: 4.4.1
+Homepage: https://github.com/miatoll-linux/droidian-droidatoll-sysfs-torch
+Vcs-Browser: https://github.com/miatoll-linux/droidian-droidatoll-sysfs-torch
+Vcs-Git: https://github.com/miatoll-linux/droidian-droidatoll-sysfs-torch.git
+
+Package: droidatoll-sysfs-torch
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}, libqt5core5a
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
