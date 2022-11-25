@@ -4,5 +4,5 @@ After=org.droidian.Flashlightd.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/droidatoll-sysfs-torch
+ExecStart=/opt/droidatoll-sysfs-torch/bin/droidatoll-sysfs-torch
 Restart=on-failure
