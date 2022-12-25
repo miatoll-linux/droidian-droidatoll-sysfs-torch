@@ -6,3 +6,6 @@ After=org.droidian.Flashlightd.service
 Type=simple
 ExecStart=/opt/droidatoll-sysfs-torch/bin/droidatoll-sysfs-torch
 Restart=on-failure
+
+[Install]
+WantedBy=graphical.target
